@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -15,10 +16,12 @@ export default function Home() {
             <a>this page!</a>
           </Link>
         </h1>
-        {/*<h1 className="title">*/}
-        {/*  Learn <a href="https://nextjs.org">Next.js!</a>*/}
-        {/*</h1>*/}
-        <img src="/images/profile.jpeg" alt="Your Name" />
+        <Image
+            src="/images/profile.jpeg" // Route of the image file
+            height={144} // Desired size with correct aspect ratio
+            width={144} // Desired size with correct aspect ratio
+            alt="Your Name"
+        />
         <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p>
