@@ -18,7 +18,7 @@ export default function Home() {
         {/*<h1 className="title">*/}
         {/*  Learn <a href="https://nextjs.org">Next.js!</a>*/}
         {/*</h1>*/}
-
+        <img src="/images/profile.jpeg" alt="Your Name" />
         <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p>
